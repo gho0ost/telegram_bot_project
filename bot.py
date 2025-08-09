@@ -9,8 +9,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ConversationHandler, ContextTypes, filters
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")  # أو حط التوكن مباشرة كـ string
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))  # ضع هنا الـ user_id تبعك من تلجرام
+TOKEN = os.environ.get("5905247562:AAGMRpsJztG1Z_zgSKdM4xEmsDOBhZAPnBo")  # أو حط التوكن مباشرة كـ string
+ADMIN_ID = int(os.environ.get("5524258673", "0"))  # ضع هنا الـ user_id تبعك من تلجرام
 
 NAME, LOCATION, PHONE, NOTE, PHOTO = range(5)
 
